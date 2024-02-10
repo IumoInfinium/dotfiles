@@ -1,0 +1,11 @@
+# Use the email and username from the remote github or VCS account
+# [user]
+#	email = USER@EMAIL.COM
+#	name = USERNAME 
+
+[includeIf "gitdir:/mnt/d/configs/"]
+	path = /mnt/d/configs/.mygitconfig
+
+[includeIf "gitdir:/mnt/d/Externals/work/lakebrains/"]
+	path = /mnt/d/Externals/work/lakebrains/.gitconfig
+

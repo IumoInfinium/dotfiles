@@ -1,0 +1,16 @@
+# ignore all the files
+*.*
+
+# read the readme file
+!README.md
+
+# read all the specific files
+!.bashrc
+#!.mygitconfig
+!.Sgitconfig
+!.ssh/config
+!.vimrc
+!.gitignore
+
+# read all the config folders
+!.config/**/
