@@ -126,6 +126,7 @@ parse_git_branch() {
 }
 export PS1="\[\e[40;0;36m\]\u@\h \[\e[32m\]\W \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
 
+export PATH="$HOME/scripts:$PATH"
 # Alias for the using git identity file
 gitlb(){
 	echo "switching to professional account..."
