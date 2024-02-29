@@ -8,11 +8,11 @@ It has been collected, stolen, tried and tested to fit my needs.
 
 # Todos
 
-[] Create a installer script.
+- [] Create a installer script.
 
-[x] UPDATE: No need to do this, the installer script sets this. Rename `.Sgitconfig` file to `.gitconfig`, and adding the email and username for the account that need to be globally usable.
+- [x] UPDATE: No need to do this, the installer script sets this. Rename `.Sgitconfig` file to `.gitconfig`, and adding the email and username for the account that need to be globally usable.
 
-[x] Change the names of the ssh-ids in `.bashrc`
+- [x] Change the names of the ssh-ids in `.bashrc`
 
 # Installation
 
