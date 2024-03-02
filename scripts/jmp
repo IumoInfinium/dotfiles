@@ -1,0 +1,52 @@
+#!/bin/bash
+
+jmp() {
+#	echo "number of parameter :$#"
+
+# 	if [[ "$#" == 0 ]]; then echo "no args specified"; fi;
+
+	if [[ "$#" -gt 1 ]]; then echo "you can only use one argument"; fi;
+
+	case "$1" in
+		"sc")
+#			echo "to scripts"
+			cd ~/scripts/
+			;;
+		"m")
+#			echo "to movies"
+			cd /mnt/f/Movies_Series
+			;;
+		"g")
+#			echo "to git repositories"
+			cd /mnt/d/Externals/git_repo
+			;;
+		"s")
+#			echo "to songs"
+			cd '/mnt/e/Songs'
+			;;
+		"c")
+#			echo "to my configs"
+			cd /mnt/d/configs
+			;;
+		"dc")
+#			echo "to C drive"
+			cd /mnt/c
+			;;
+		"dd")
+#			echo "to D drive"
+			cd /mnt/d
+			;;
+		"de")
+#			echo "to E drive"
+			cd /mnt/e
+			;;
+		"df")
+#			echo "to F drive"
+			cd /mnt/f
+			;;
+		*)
+			echo "either no argument supplied or wrong argument"
+			;;
+esac
+}
+

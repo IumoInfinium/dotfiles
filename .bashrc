@@ -140,3 +140,10 @@ gitme(){
 	eval "$(ssh-agent -s)"
 	ssh-add ~/.ssh/wsl_p2
 }
+
+# sourcing the scripts
+for sf in $( ls ~/scripts/ )
+do
+	source $sf
+done
+
